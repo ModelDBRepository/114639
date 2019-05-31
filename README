@@ -1,0 +1,121 @@
+
+GLOBUS PALLIDUS NEURON MODEL DATABASE
+----------------------------------------
+
+This file explains who to run the multi-compartmental globus pallidus
+(GP) neuron model as published in:
+
+Gunay, Edgerton, and Jaeger (2008). Channel Density Distributions Explain
+Spiking Variability in the Globus Pallidus: A Combined Physiology and
+Computer Simulation Database Approach. J Neurosci. 28(30):7476-7491.
+
+Requirements:
+--------------------
+Genesis 2.3 from http://www.genesis-sim.org/GENESIS/.
+
+For compressing Genesis voltage files (default), you will need the
+Gencompress utility from:
+http://userwww.service.emory.edu/~cgunay/pandora/#gencompress
+Alternatively, you can disbale creating compressed output files by
+setting the compressdata variable to 0 in setup.g.
+
+You need to create output data directory (e.g., 'data') in the
+run_sample directory for the disk_out type binary membrane voltage
+data files. You can also specify other directories by modifying the
+setup.g file (see below).
+
+Running the simulation:
+------------------------------
+
+To run the model manually, the following UNIX command will run the
+simulation using the maximal conductance values of the hand-tuned
+model:
+
+$ export GENESIS_PAR_ROW="500 1 .1 10 20 2 4 .3 1 1 1"
+$ genesis -nox -batch -notty setup.g
+
+See readGPparams.g for the order of parameter values.
+
+To run it on a SGE-compatible cluster see the shell scripts below.
+
+Data Analysis:
+--------------------
+
+See the PANDORA Toolbox for data analysis of the voltage files
+(http://senselab.med.yale.edu/simtooldb/ShowTool.asp?tool=112112 or
+http://software.incf.org/software/44/view/PANDORA/home/ or
+http://userwww.service.emory.edu/~cgunay/pandora/).
+
+Model Neuron Database:
+------------------------------
+
+The model database with the raw voltage data files takes about 7 GB in
+compressed format and can be requested in DVD format from the
+authors. The Matlab PANDORA database file is much smaller (order of
+hundred MBs). Contact CG (cgunay AT emory.edu or cengique AT
+users.sf.net) to request these packages.
+
+Organization of model file hierarchy:
+-----------------------------------------
+
+DIRECTORY: common/ 
+
+Contains common scripts to setup model channels and structure, and the morphology files.
+
+DIRECTORY: runs/run_sample/
+
+Contains scripts specific to running the simulations for this GP model
+database.
+
+FILES:
+
+setup.g: Main simulation script that starts a batch of current
+injection protocol simulations on a given single set of conductance
+density parameters.
+
+setup-test.g: A simpler simulation run similar to setup.g that is
+intended for a test simulation.
+
+readGPparams.g: Script to read model maximal conductance values from a
+shell environment variable.
+
+morph3_addedNaF_HCN_KCNQ_lower_vals.par: Set of 100,602 unique
+parameter combinations simulated in the published GP model
+database. This file contains some redundant parameter combinations,
+more than actually used in the database.
+
+paramRangesMorph*.txt: Example input files for generating the *.par
+files using the paramScanSingle.pl script in this directory.
+
+
+Supplemetary shell scripts under runs/run_sample/:
+---------------------------------------------------------
+
+All of the below scripts contain some documentation and examples on
+how to run them within their header, or when they're run without
+parameters.
+
+sge_submit: A UNIX bash shell script shows how the original model
+database was submitted to a computing cluster managed with the Sun
+Grid Engine (SGE) software. 
+
+sge_perlhash: An Perl script designed to be submitted to SGE for
+running a set of simulations passing a parameters from one of the
+*.par files above (See sge_submit for an example).
+
+create_perlhash_param_db: A Perl script to prepare the *.par parameter
+file to be read by sge_perlhash script (See sge_submit for an example).
+
+run_genesis.sh: An SGE script to submit a single simulation to the
+cluster without passing any parameter values.
+
+---
+Model files submitted by
+Cengiz Gunay <cgunay AT emory.edu>, 2008/08/11
+
+Other authors:
+Jeremy Edgerton <jedgert AT emory.edu>
+Dieter Jaeger <djaeger AT emory.edu>
+
+See also the Jaeger Lab web page:
+http://www.biology.emory.edu/research/Jaeger

@@ -1,0 +1,82 @@
+/.GPchans.g.swp/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/.actpars.g.swp/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/GP1.p/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/GP1_defaults.g/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/GP2.p/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/GP2_defaults.g/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/GP2_sd.p/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/GP3.p/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/GP3_defaults.g/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/GP4.p/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/GP4_defaults.g/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/GP5.p/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/GP5_defaults.g/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/GPcomps_nochans.g/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/GPsyns.g/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/add_STN_syns_soma.g/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/add_pallidum_syns.g/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/calc_syn_integ.g/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/fileioGP.g/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/gp1_STNinputcomps.asc/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/gp1_act_spont_snapshot.save/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/gp1_pas_spont_snapshot.save/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/gp1allcompnames.asc/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/gp1dendritenames.asc/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/gp1outputnames.asc/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/gp2_act_spont_snapshot.save/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/gp2_pas_spont_snapshot.save/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/gp2allcompnames.asc/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp2dendritenames.asc/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp2outputnames.asc/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp3_act_spont_snapshot.save/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp3_pas_spont_snapshot.save/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp3allcompnames.asc/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp3dendritenames.asc/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp3outputnames.asc/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp4_act_spont_snapshot.save/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp4_pas_spont_snapshot.save/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp4allcompnames.asc/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp4dendritenames.asc/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp4outputnames.asc/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp5_act_spont_snapshot.save/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp5_pas_spont_snapshot.save/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp5allcompnames.asc/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp5dendritenames.asc/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/gp5outputnames.asc/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/jitter_syns.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/make_GP_library_nochans.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/modify.par/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/paspars.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/random_complist.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/randseeds.asc/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/read_STN_nocluster_scaled.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/read_STN_nocluster_scaled_const.g/1.1.1.1/Tue Jan 10 22:11:08 2006//
+/read_STN_nocluster_scaled_nottab.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/read_STN_nocluster_scaled_ttabfile.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/read_STN_syns.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/read_STN_syns_nocluster.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/read_STN_syns_times_nocluster.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/read_clusters.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/read_striatum_syns.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/read_striatum_syns_const.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/read_striatum_syns_const_scaled.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/read_striatum_syns_scaled.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/read_striatum_syns_soma.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/runbatch_nice/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/simdefaults.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/snapshotGP.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/write_ttab.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+/write_ttabs_separatefiles.g/1.1.1.1/Tue Jan 10 22:11:09 2006//
+D/NotInUse////
+D/gp1_stn////
+D/gp2_stn////
+D/gp3_stn////
+D/gp4_stn////
+D/gp5_stn////
+D/morphol////
+/GPcomps.g/1.1.1.1/Tue Jan 10 23:38:31 2006//
+/GPchans.g/1.3/Wed Jan 25 21:22:01 2006//
+/make_GP_library.g/1.2/Wed Jan 25 21:20:34 2006//
+/actpars.g/1.2/Thu Jan 26 22:22:57 2006//
+/CIPfuncs.g/1.3/Thu Jan 25 21:27:00 2007//
+/dump_chans.g/1.1/Tue Mar  6 17:24:23 2007//
